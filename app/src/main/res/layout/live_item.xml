@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:hint="ID"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt2"
+            android:hint="rubrique"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:hint="auteur"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:hint="titre"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+
+            android:src="@drawable/ic_baseline_edit_note_24"></ImageView>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="66dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_delete_24">
+
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>
