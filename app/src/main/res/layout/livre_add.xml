@@ -71,23 +71,7 @@
 
 
 
-    <EditText
-        android:id="@+id/edit_stock"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_margin="20dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/teal_700"
 
-
-        android:drawablePadding="16dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:ems="10"
-        android:hint="Stock"
-        android:padding="16dp"></EditText>
 
 
 
